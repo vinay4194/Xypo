@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Xypo</title>
+   <link rel="stylesheet" href="mystyle.css"type="text/css">
+   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+   <section id="header">
+      <div class="container">
+         <img src="images/logo.png" class="logo">
+         <div class="header-text">
+            <h1>The purpose is to teach, bring learning to people
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique quia est ex quaerat repellendus, ipsum a, officiis nihil doloremque, exercitationem voluptate! Facere quibusdam distinctio debitis cum commodi, recusandae deleniti?
+            </p>
+         </div>
+         <button class="common-btn">
+            Read More
+         </button>
+      </div>
+
+   </section>
+
+   <nav id="side-nav">
+      <ul>
+         <li><a href="#">Home </a></li>
+         <li><a href="#">About Us </a></li>
+         <li><a href="#">Features </a></li>
+         <li><a href="#">Courses </a></li>
+         <li><a href="#">Offers </a></li>
+         <li><a href="#">Contact </a></li>
+      </ul>
+   </nav>
+   <img id="nav-btn" src="images/menu.png">
+ 
+<!--==========About Us=============-->  
+
+<section class="about">
+   <div class="left-col">
+      <img src="images/about.png">
+   </div>
+   <div class="right-col">
+      <div class="about-text">
+         <h1> About Us</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit repudiandae, facere reprehenderit dolor perferendis vel, saepe earum laboriosam</p>
+         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatem, eveniet at labore hic tempora. Rerum quo </h2>
+         <h3>---Abigail Adams</h3>
+      </div>
+   </div>
+</section>
+
+<!--==========Features=============-->  
+
+<section class="features">
+   <div class="feature-row">
+      <div class="feature-col">
+         <img src="images/pic-1.png">
+         <h4>Learn Anywhere</h4>
+         <p>Switch between your computer tablet or mobile </p>
+      </div>
+      <div class="feature-col">
+         <img src="images/pic-2.png">
+         <h4>Expert Teachers</h4>
+         <p>Learn from industry experts who are passionate about teaching </p>
+      </div>
+      <div class="feature-col">
+         <img src="images/pic-3.png">
+         <h4>Unlimited Access</h4>
+         <p>Choose what you'd like to learn from our extensive subscription library</p>
+      </div>
+   </div>
+   <div class= feature-btn>
+      <button class="common-btn">
+         Start Free Trial
+      </button>
+   </div>
+</section>
+
+<!--=========Courses=============-->
+<section class="courses">
+   <div class="container courses-row">
+      <div class="courses-col">
+         <div class="course-text">
+            <h1>Browse our top Courses</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, distinctio voluptatibus qui nobis deserunt unde quasi? Magnam, nesciunt praesentium velit illum laborum, ea vero enim quo </p>
+            <button class="common-btn">
+            View All Courses
+            </button>
+         </div>
+      </div>
+      <div class="courses-col">
+         <img src="images/course.png">
+      </div>
+   </div>
+</section>
+
+<!--=========Offer=============-->
+
+<section class="offer">
+   <div class="offer-left-col">
+      <img src="images/offer.png">
+   </div>
+   <div class="offer-right-col">
+      <h1>Limitless learning<br>Limitless possibilities   </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, et consequuntur! Reprehenderit atque unde quo temporibus minima!
+      </p>
+   </div>
+</section>
+
+
+<!---=============[Contact]================-->
+
+<section class="contact">
+   <div class="container contact-row">
+     <div class="contact-left-col">
+         <h1> Sign up to join our <br> learning comminity
+         </h1>
+         <form>
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+            <div class="btn-box">
+               <button class="common-btn">
+               Sign Up
+               </button>
+               <button class="common-btn">
+                  Start Free Trial
+               </button>
+            </div>
+         </form>
+     </div>
+     <div class="contact-right-col">
+        <img src="images/contact.png">
+     </div>
+
+
+   </div>
+</section>
+
+<hr>
+<!--=========Footer=============-->
+<section class="footer">
+   <div class=" footer-row">
+      <div class="footer-col">
+         <h4>Product</h4>
+         <small>Our Plan</small><br>
+         <small>Free Trail</small>
+      </div>
+      <div class="footer-col">
+         <h4>About Us</h4>
+         <small>Request Demo</small><br>
+         <small>FAQs</small>
+      </div>
+      <div class="footer-col">
+         <h4>Support</h4>
+         <small>Features</small><br>
+         <small>Contact Us</small>
+      </div>
+      <div class="footer-col">
+         <h4>Explore</h4>
+         <small>Find a nonprofit</small><br>
+         <small>Corporate Solutions</small>
+      </div>
+      <div class="footer-col">
+         <img src="images/logo.png">
+      </div>
+   </div>
+
+</section>
+
+<!--=========Social Icons=============-->
+
+
+<div class="social-icons">
+   <img src="images/facebook.png">
+   <img src="images/instagram.png">
+   <img src="images/twitter.png">
+   <img src="images/linkedin.png">
+</div>
+
+
+<!--=========Navigation=============-->
+
+
+   <script>
+      var menubtn=document.getElementById("nav-btn");
+      var sidenav=document.getElementById("side-nav");
+      sidenav.style.right="-250px";
+      menubtn.onclick=function(){
+         if(sidenav.style.right=="-250px"){
+            sidenav.style.right="0";
+         }
+         else{
+            sidenav.style.right="-250px";
+         }
+      }
+      
+	var scroll = new SmoothScroll('a[href*="#"]');
+   
+
+   </script>
+</body>
+</html>
+
